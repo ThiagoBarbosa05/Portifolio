@@ -33,8 +33,14 @@ main {
     top: 0; bottom: 0;
     left: 0; right: 0;
 }
+
 h2 {
     font-size: 1.2rem;
+}
+
+hr {
+    margin-top: 1rem;
+    opacity: 0.5;
 }
 
 .shadow {
@@ -220,6 +226,59 @@ h2 {
 
 #social-media .social-box:last-child  {
     margin-right: 0;
+}
+
+#modal-about-me {
+    width: 80%;
+    max-width: 540px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: rgb(78, 78, 78);
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-radius: 7px;
+    display: none;
+}
+
+#modal-about-me .picture-profile img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.picture-profile, .name-profile, .text-about-me {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.text-about-me p {
+    line-height: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.blur {
+    filter: blur(5px);
+}
+
+.header-modal {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-button #close {
+    background-image: url(../images/icons8-close-64.png);
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    border: none;
 }
 
 
