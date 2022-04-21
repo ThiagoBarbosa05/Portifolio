@@ -170,6 +170,9 @@ hr {
 
 /* Skills */
 
+#skills {
+    display: none;
+}
 
 .skills-container {
     height: 550px;
@@ -179,7 +182,7 @@ hr {
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
-    
+   
 }
 
 #skills .skill-box {
